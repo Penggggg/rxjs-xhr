@@ -15,7 +15,16 @@ router.get('/', async( ctx ) => {
   ctx.body = indexPage;
 })
 router.get('/haha', async( ctx ) => {
-  ctx.body = { name: '123123' }
+  ctx.body = { name: 'data from get' }
+})
+router.post('/haha', async( ctx ) => {
+  ctx.body = { data: 'data from post' }
+})
+router.delete('/haha', async( ctx ) => {
+  ctx.body = { data: 'data from delete' }
+})
+router.put('/haha', async( ctx ) => {
+  ctx.body = { data: 'data from put' }
 })
 
 app

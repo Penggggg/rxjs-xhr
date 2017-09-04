@@ -38,3 +38,1108 @@
 [37mCompleted in 2ms  404
 
 [39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:31:06 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 14ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:31:06 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/SubjectSubscription.js.map for ::1at Mon Sep 04 2017 20:31:06 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:31:15 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 13ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:31:15 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/SubjectSubscription.js.map for ::1at Mon Sep 04 2017 20:31:15 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:31:16 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:31:16 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted GET   /static/SubjectSubscription.js.map for ::1at Mon Sep 04 2017 20:31:16 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:31:21 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:31:21 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/SubjectSubscription.js.map for ::1at Mon Sep 04 2017 20:31:21 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:33:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 17ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:33:05 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/do.js.map for ::1at Mon Sep 04 2017 20:33:05 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:33:06 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:33:06 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/do.js.map for ::1at Mon Sep 04 2017 20:33:06 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:33:07 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:33:07 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/do.js.map for ::1at Mon Sep 04 2017 20:33:07 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:33:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:33:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/do.js.map for ::1at Mon Sep 04 2017 20:33:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:38:08 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 18ms  200
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:38:09 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:38:44 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 17ms  200
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:39:24 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 19ms  200
+
+[39m
+[37mStarted GET   /static/SubjectSubscription.js.map for ::1at Mon Sep 04 2017 20:39:24 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:39:28 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/SubjectSubscription.js.map for ::1at Mon Sep 04 2017 20:39:28 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:40:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 17ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:40:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/do.js.map for ::1at Mon Sep 04 2017 20:40:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:41:09 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 14ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:41:09 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/do.js.map for ::1at Mon Sep 04 2017 20:41:09 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:45:24 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 18ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:45:25 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/do.js.map for ::1at Mon Sep 04 2017 20:45:25 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:45:43 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 34ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:45:43 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 7ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 20:45:43 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:45:56 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 29ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:45:56 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 20:45:56 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:45:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:45:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 20:45:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:53:15 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 16ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:53:15 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:53:15 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 20:53:15 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:56:52 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 15ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:56:52 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:56:52 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha?name=asdasd& for ::1at Mon Sep 04 2017 20:56:52 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 20:56:52 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:57:08 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 17ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:57:08 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:57:08 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha?name=asdasd& for ::1at Mon Sep 04 2017 20:57:08 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 20:57:08 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 6ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:57:45 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 15ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:57:45 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:57:45 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 20:57:45 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 20:57:45 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:57:48 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:57:48 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 20:57:48 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:57:48 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 20:57:48 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 20:57:51 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 20:57:51 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted GET   /haha? for ::1at Mon Sep 04 2017 20:57:51 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 20:57:51 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 20:57:51 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:02:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 19ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:02:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:02:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 10ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:02:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:02:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:02:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:02:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:15:39 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 14ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:15:39 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:15:39 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:15:39 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:15:39 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:15:39 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:15:39 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:16:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 13ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:16:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 5ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:16:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 6ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:16:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:16:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:16:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:16:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:17:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:17:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:17:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:17:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:17:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:17:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:17:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:17:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:17:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:17:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:17:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:17:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:17:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:17:58 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:18:00 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:18:00 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:18:00 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:18:00 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:18:00 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 4ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:18:00 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 5ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:18:00 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:18:02 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:18:03 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 3ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:18:03 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:18:03 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:18:03 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:18:03 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:18:03 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:18:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:18:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:18:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:18:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:18:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:18:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:18:10 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:19:20 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:19:20 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:19:20 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:19:20 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 3ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:19:20 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:19:20 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:19:20 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:19:49 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:19:49 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:19:49 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:19:49 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 3ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:19:49 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:19:49 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:19:49 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:21:30 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:21:30 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:21:30 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:21:30 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:21:30 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:21:30 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:21:30 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:21:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:21:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:21:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 4ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:21:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:21:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:21:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:21:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:22:36 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 18ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:22:36 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 4ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:22:36 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:22:36 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:22:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 0ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:22:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:22:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:22:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:22:40 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:22:40 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:22:40 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:22:40 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:25:01 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 15ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:25:01 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 4ms  200
+
+[39m
+[37mStarted PUT   /haha?? for ::1at Mon Sep 04 2017 21:25:01 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"?":""}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:25:01 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:26:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 26ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:26:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 4ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:26:55 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:27:29 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 17ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:27:29 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:27:50 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:27:50 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:28:24 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 19ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:28:24 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:28:24 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:29:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 21ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:29:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:29:04 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:29:48 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 39ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:29:48 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 5ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:29:48 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:29:48 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:30:14 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 31ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:30:14 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 4ms  200
+
+[39m
+[37mStarted POST   /haha? for ::1at Mon Sep 04 2017 21:30:14 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:30:14 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:31:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 22ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:31:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 6ms  200
+
+[39m
+[37mStarted POST   /haha?id=123& for ::1at Mon Sep 04 2017 21:31:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"id":"123"}[39m
+[37mCompleted in 10ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:31:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:31:33 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 17ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:32:50 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 18ms  200
+
+[39m
+[37mStarted POST   /haha?id=123& for ::1at Mon Sep 04 2017 21:32:50 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"id":"123"}[39m
+[37mCompleted in 3ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:32:50 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:32:50 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:32:50 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:33:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 18ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:33:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted POST   /haha?id=123& for ::1at Mon Sep 04 2017 21:33:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"id":"123"}[39m
+[37mCompleted in 4ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:33:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted PUT   /haha? for ::1at Mon Sep 04 2017 21:33:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 1ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:33:38 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 3ms  404
+
+[39m
+[37mStarted GET   / for ::1at Mon Sep 04 2017 21:34:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 18ms  200
+
+[39m
+[37mStarted GET   /haha?sex=asdsd& for ::1at Mon Sep 04 2017 21:34:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"sex":"asdsd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted POST   /haha?id=123& for ::1at Mon Sep 04 2017 21:34:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"id":"123"}[39m
+[37mCompleted in 9ms  200
+
+[39m
+[37mStarted DELETE   /haha?name=asdasd& for ::1at Mon Sep 04 2017 21:34:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"name":"asdasd"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted PUT   /haha?id=123& for ::1at Mon Sep 04 2017 21:34:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{"id":"123"}[39m
+[37mCompleted in 2ms  200
+
+[39m
+[37mStarted GET   /static/filter.js.map for ::1at Mon Sep 04 2017 21:34:13 GMT+0800 (CST)[39m
+[37m  [35mquery[37m:{}[39m
+[37mCompleted in 2ms  404
+
+[39m

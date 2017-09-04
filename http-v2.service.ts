@@ -1,5 +1,4 @@
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
-import { Subscription } from 'rxjs/Subscription';
 
 
 class Http {
@@ -8,9 +7,7 @@ class Http {
     TIMEOUT: 10000
   }
 
-  constructor( ) {
-    
-  }
+  constructor( ) { }
 
   public get: GET = ( url: string, query: Object = { }, headers: Object = { }) => {
     
@@ -18,11 +15,44 @@ class Http {
     const subject = new BehaviorSubject( null );
 
     this.decorateXHR( xhr, subject );
-
     this.sendXHR( xhr, 'GET', url, query, { }, headers );
 
     return subject;
 
+  }
+
+  public post: POST = ( url: string, body: Object = { }, headers: Object = { }, query: Object = { }) => {
+
+    const xhr = new XMLHttpRequest( );
+    const subject = new BehaviorSubject( null );
+
+    this.decorateXHR( xhr, subject );
+    this.sendXHR( xhr, 'POST', url, query, body, headers );
+
+    return subject;
+  }
+
+  public delete: DELETE = ( url: string, query: Object = { }, headers: Object = { }) => {
+    
+    const xhr = new XMLHttpRequest( );
+    const subject = new BehaviorSubject( null );
+
+    this.decorateXHR( xhr, subject );
+    this.sendXHR( xhr, 'DELETE', url, query, { }, headers );
+
+    return subject;
+
+  }
+
+  public put: PUT = ( url: string, body: Object = { }, headers: Object = { }, query: Object = { }) => {
+
+    const xhr = new XMLHttpRequest( );
+    const subject = new BehaviorSubject( null );
+
+    this.decorateXHR( xhr, subject );
+    this.sendXHR( xhr, 'PUT', url, query, body, headers );
+
+    return subject;
   }
 
   //  发送xhr
@@ -34,15 +64,34 @@ class Http {
     body?: Object,
     headers?: Object ): void {
 
-      // 设置头部信息
-      this.setHeaders( xhr, headers );
+      url += `?${this.toQueryString(query)}`;
 
       switch( type ) {
+        case "DELETE": { 
+          xhr.open( 'DELETE', url, true );
+          this.setHeaders( xhr, headers );
+          xhr.send( );
+          break;
+        }
 
         case "GET": {
-          url += `?${this.toQueryString(query)}`;
           xhr.open( 'GET', url, true );
+          this.setHeaders( xhr, headers );
           xhr.send( );
+          break;
+        }
+
+        case "POST": {
+          xhr.open( 'POST', url, true );
+          this.setHeaders( xhr, headers );
+          xhr.send( JSON.stringify( body ));
+          break;
+        }
+
+        case "PUT": {
+          xhr.open( 'PUT', url, true );
+          this.setHeaders( xhr, headers );
+          xhr.send( JSON.stringify( body ));
           break;
         }
 
@@ -77,21 +126,21 @@ class Http {
     // readyStateChange事件
     xhr.onreadystatechange = ( ) => {
       
-      let { readyState, status, statusText } = xhr;
+      let { readyState, status, statusText, responseText } = xhr;
 
       if ( readyState === 4 ) {
 
         // 成功
         if ( String(status).indexOf('2') === 0 || String(status).indexOf('3') ) {
           try {
-            subject.next( xhr.responseText );
+            subject.next( responseText );
             subject.complete( );
           } catch ( e ) {
             this.errorCloseConnection( xhr, subject, JSON.stringify( e ));
           }
           // 失败
         } else {
-            this.errorCloseConnection( xhr, subject, statusText );
+            this.errorCloseConnection( xhr, subject, JSON.stringify({ statusText, status, responseText }));
         }
       }
     }
@@ -122,14 +171,29 @@ interface GET {
     < R, Q, H >( url: string, query: Q, header: H ): BehaviorSubject<R>
 }
 
-const http = new Http( );
+interface POST {
+    < R >( url: string ): BehaviorSubject< R >
+    < R, B >( url: string, body: B ): BehaviorSubject< R >
+    < R, B, H >( url: string, body: B, header: H ): BehaviorSubject< R >
+    < R, B, H, Q >( url: string, body: B, header: H, query: Q ): BehaviorSubject< R >
+}
 
-var a = http.get('/haha');
+interface PUT {
+    < R >( url: string ): BehaviorSubject< R >
+    < R, B >( url: string, body: B ): BehaviorSubject< R >
+    < R, B, H >( url: string, body: B, header: H ): BehaviorSubject< R >
+    < R, B, H, Q >( url: string, body: B, header: H, query: Q ): BehaviorSubject< R >
+}
+
+interface DELETE {
+    < R >( url: string ): BehaviorSubject<R>
+    < R, Q >( url: string, query: Q ): BehaviorSubject<R>
+    < R, Q, H >( url: string, query: Q, header: H ): BehaviorSubject<R>
+}
+
+export default new Http( );
 
 
-a
-  .do(console.log)
-  .subscribe( )
 
 
 

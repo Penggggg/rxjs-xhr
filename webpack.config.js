@@ -55,7 +55,7 @@ if (DEBUG) {
 
 module.exports = {
   entry: {
-    index: ['./http-v2.service.ts']
+    index: ['./test.ts']
   },
 
   output: {

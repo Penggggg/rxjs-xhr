@@ -16,16 +16,62 @@ var Http = (function () {
             _this.sendXHR(xhr, 'GET', url, query, {}, headers);
             return subject;
         };
+        this.post = function (url, body, headers, query) {
+            if (body === void 0) { body = {}; }
+            if (headers === void 0) { headers = {}; }
+            if (query === void 0) { query = {}; }
+            var xhr = new XMLHttpRequest();
+            var subject = new BehaviorSubject_1.BehaviorSubject(null);
+            _this.decorateXHR(xhr, subject);
+            _this.sendXHR(xhr, 'POST', url, query, body, headers);
+            return subject;
+        };
+        this.delete = function (url, query, headers) {
+            if (query === void 0) { query = {}; }
+            if (headers === void 0) { headers = {}; }
+            var xhr = new XMLHttpRequest();
+            var subject = new BehaviorSubject_1.BehaviorSubject(null);
+            _this.decorateXHR(xhr, subject);
+            _this.sendXHR(xhr, 'DELETE', url, query, {}, headers);
+            return subject;
+        };
+        this.put = function (url, body, headers, query) {
+            if (body === void 0) { body = {}; }
+            if (headers === void 0) { headers = {}; }
+            if (query === void 0) { query = {}; }
+            var xhr = new XMLHttpRequest();
+            var subject = new BehaviorSubject_1.BehaviorSubject(null);
+            _this.decorateXHR(xhr, subject);
+            _this.sendXHR(xhr, 'PUT', url, query, body, headers);
+            return subject;
+        };
     }
     //  发送xhr
     Http.prototype.sendXHR = function (xhr, type, url, query, body, headers) {
-        // 设置头部信息
-        this.setHeaders(xhr, headers);
+        url += "?" + this.toQueryString(query);
         switch (type) {
-            case "GET": {
-                url += "?" + this.toQueryString(query);
-                xhr.open('GET', url, true);
+            case "DELETE": {
+                xhr.open('DELETE', url, true);
+                this.setHeaders(xhr, headers);
                 xhr.send();
+                break;
+            }
+            case "GET": {
+                xhr.open('GET', url, true);
+                this.setHeaders(xhr, headers);
+                xhr.send();
+                break;
+            }
+            case "POST": {
+                xhr.open('POST', url, true);
+                this.setHeaders(xhr, headers);
+                xhr.send(JSON.stringify(body));
+                break;
+            }
+            case "PUT": {
+                xhr.open('PUT', url, true);
+                this.setHeaders(xhr, headers);
+                xhr.send(JSON.stringify(body));
                 break;
             }
             default: break;
@@ -59,12 +105,12 @@ var Http = (function () {
         xhr.ontimeout = function (err) { return _this.errorCloseConnection(xhr, subject, JSON.stringify(err)); };
         // readyStateChange事件
         xhr.onreadystatechange = function () {
-            var readyState = xhr.readyState, status = xhr.status, statusText = xhr.statusText;
+            var readyState = xhr.readyState, status = xhr.status, statusText = xhr.statusText, responseText = xhr.responseText;
             if (readyState === 4) {
                 // 成功
                 if (String(status).indexOf('2') === 0 || String(status).indexOf('3')) {
                     try {
-                        subject.next(xhr.responseText);
+                        subject.next(responseText);
                         subject.complete();
                     }
                     catch (e) {
@@ -73,7 +119,7 @@ var Http = (function () {
                     // 失败
                 }
                 else {
-                    _this.errorCloseConnection(xhr, subject, statusText);
+                    _this.errorCloseConnection(xhr, subject, JSON.stringify({ statusText: statusText, status: status, responseText: responseText }));
                 }
             }
         };
@@ -91,8 +137,4 @@ var Http = (function () {
     };
     return Http;
 }());
-var http = new Http();
-var a = http.get('/haha');
-a
-    .do(console.log)
-    .subscribe();
+exports.default = new Http();

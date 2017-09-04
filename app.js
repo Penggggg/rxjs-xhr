@@ -55,7 +55,25 @@ router.get('/', function (ctx) { return __awaiter(_this, void 0, void 0, functio
 }); });
 router.get('/haha', function (ctx) { return __awaiter(_this, void 0, void 0, function () {
     return __generator(this, function (_a) {
-        ctx.body = { name: '123123' };
+        ctx.body = { name: 'data from get' };
+        return [2 /*return*/];
+    });
+}); });
+router.post('/haha', function (ctx) { return __awaiter(_this, void 0, void 0, function () {
+    return __generator(this, function (_a) {
+        ctx.body = { data: 'data from post' };
+        return [2 /*return*/];
+    });
+}); });
+router.delete('/haha', function (ctx) { return __awaiter(_this, void 0, void 0, function () {
+    return __generator(this, function (_a) {
+        ctx.body = { data: 'data from delete' };
+        return [2 /*return*/];
+    });
+}); });
+router.put('/haha', function (ctx) { return __awaiter(_this, void 0, void 0, function () {
+    return __generator(this, function (_a) {
+        ctx.body = { data: 'data from put' };
         return [2 /*return*/];
     });
 }); });
