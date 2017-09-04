@@ -1,0 +1,33 @@
+{
+  "name": "rxjs-xhr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Penggggg/rxjs-xhr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Penggggg/rxjs-xhr/issues"
+  },
+  "homepage": "https://github.com/Penggggg/rxjs-xhr#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logs-full": "^0.0.8",
+    "koa-router": "^7.2.1",
+    "koa-static2": "^0.1.8",
+    "rxjs": "^5.4.3",
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "ts-loader": "^2.3.4",
+    "webpack": "^3.5.5"
+  }
+}
