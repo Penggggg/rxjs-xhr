@@ -124,7 +124,7 @@ interface GET {
 
 const http = new Http( );
 
-var a = http.get('/haha')
+var a = http.get('/haha');
 
 
 a
