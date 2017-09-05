@@ -1,17 +1,15 @@
-
 import { ReplaySubject } from 'rxjs/ReplaySubject';
-
 
 class Http {
 
   private options = {
     TIMEOUT: 10000
-  }
+  };
 
   constructor( ) { }
 
-  public get: GET = ( url: string, query: Object = { }, headers: Object = { }) => {
-    
+  public get: GET = ( url: string, query: object = { }, headers: object = { }) => {
+
     const { xhr, subject } = this.init( );
     this.sendXHR( xhr, 'GET', url, query, { }, headers );
 
@@ -19,7 +17,7 @@ class Http {
 
   }
 
-  public post: POST = ( url: string, body: Object = { }, headers: Object = { }, query: Object = { }) => {
+  public post: POST = ( url: string, body: object = { }, headers: object = { }, query: object = { }) => {
 
     const { xhr, subject } = this.init( );
     this.sendXHR( xhr, 'POST', url, query, body, headers );
@@ -27,8 +25,8 @@ class Http {
     return subject;
   }
 
-  public delete: DELETE = ( url: string, query: Object = { }, headers: Object = { }) => {
-    
+  public delete: DELETE = ( url: string, query: object = { }, headers: object = { }) => {
+
     const { xhr, subject } = this.init( );
     this.sendXHR( xhr, 'DELETE', url, query, { }, headers );
 
@@ -36,14 +34,14 @@ class Http {
 
   }
 
-  public put: PUT = ( url: string, body: Object = { }, headers: Object = { }, query: Object = { }) => {
+  public put: PUT = ( url: string, body: object = { }, headers: object = { }, query: object = { }) => {
 
     const { xhr, subject } = this.init( );
     this.sendXHR( xhr, 'PUT', url, query, body, headers );
 
     return subject;
   }
-  
+
   // 代码提取
   private init = ( ): { xhr: XMLHttpRequest, subject: ReplaySubject< any > } => {
 
@@ -51,44 +49,44 @@ class Http {
     const subject = new ReplaySubject( 1 );
 
     this.decorateXHR( xhr, subject );
-    return { xhr, subject }
+    return { xhr, subject };
 
   }
 
   //  发送xhr
-  private sendXHR( 
-    xhr: XMLHttpRequest, 
+  private sendXHR(
+    xhr: XMLHttpRequest,
     type: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'HEAD' | 'OPTIONS',
     url: string,
-    query: Object = { },
-    body: Object = { },
-    headers: Object = { }): void {
+    query: object = { },
+    body: object = { },
+    headers: object = { }): void {
 
       url += `?${this.toQueryString(query)}`;
 
-      switch( type ) {
-        case "DELETE": { 
+      switch ( type ) {
+        case 'DELETE': {
           xhr.open( 'DELETE', url, true );
           this.setHeaders( xhr, headers );
           xhr.send( );
           break;
         }
 
-        case "GET": {
+        case 'GET': {
           xhr.open( 'GET', url, true );
           this.setHeaders( xhr, headers );
           xhr.send( );
           break;
         }
 
-        case "POST": {
+        case 'POST': {
           xhr.open( 'POST', url, true );
           this.setHeaders( xhr, headers );
           xhr.send( JSON.stringify( body ));
           break;
         }
 
-        case "PUT": {
+        case 'PUT': {
           xhr.open( 'PUT', url, true );
           this.setHeaders( xhr, headers );
           xhr.send( JSON.stringify( body ));
@@ -99,17 +97,17 @@ class Http {
       }
   }
 
-  // xhr set headers 
-  private setHeaders( xhr: XMLHttpRequest, headers: Object ={ }): void {
+  // xhr set headers
+  private setHeaders( xhr: XMLHttpRequest, headers: object = { }): void {
     const keys = Object.keys( headers );
-    if ( keys.length === 0 ) { return ;}
-    keys.map(( k ) => xhr.setRequestHeader( k, headers[ k ]));
+    if ( keys.length === 0 ) { return; }
+    keys.map( k => xhr.setRequestHeader( k, headers[ k ]));
   }
 
   // 对象转查询字符串
-  private toQueryString( query: Object = { }): string {
+  private toQueryString( query: object = { }): string {
     const keys = Object.keys( query );
-    if ( keys.length === 0 ) { return '' }
+    if ( keys.length === 0 ) { return ''; }
     return keys.map( k => `${k}=${query[k]}&`).join('');
   }
 
@@ -125,8 +123,8 @@ class Http {
 
     // readyStateChange事件
     xhr.onreadystatechange = ( ) => {
-      
-      let { readyState, status, statusText, responseText } = xhr;
+
+      const { readyState, status, statusText, responseText } = xhr;
 
       if ( readyState === 4 ) {
 
@@ -143,16 +141,14 @@ class Http {
             this.errorCloseConnection( xhr, subject, JSON.stringify({ statusText, status, responseText }));
         }
       }
-    }
-
-
+    };
 
   }
 
   // 发生错误 - xhr关闭连接
   private errorCloseConnection( xhr: XMLHttpRequest, subject: ReplaySubject<any>, err: string ): void {
     xhr.abort( );
-    subject.error( err )
+    subject.error( err );
     subject.complete( );
   }
 
@@ -161,7 +157,6 @@ class Http {
     xhr.abort( );
     subject.complete( );
   }
-
 
 }
 
@@ -192,15 +187,3 @@ interface DELETE {
 }
 
 export default new Http( );
-
-
-
-
-
-
-
-
-
-
-
-
