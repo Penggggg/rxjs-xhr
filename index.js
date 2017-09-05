@@ -961,9 +961,7 @@ var Http = /** @class */ (function () {
         this.get = function (url, query, headers) {
             if (query === void 0) { query = {}; }
             if (headers === void 0) { headers = {}; }
-            var xhr = new XMLHttpRequest();
-            var subject = new ReplaySubject_1.ReplaySubject(1);
-            _this.decorateXHR(xhr, subject);
+            var _a = _this.init(), xhr = _a.xhr, subject = _a.subject;
             _this.sendXHR(xhr, 'GET', url, query, {}, headers);
             return subject;
         };
@@ -971,18 +969,14 @@ var Http = /** @class */ (function () {
             if (body === void 0) { body = {}; }
             if (headers === void 0) { headers = {}; }
             if (query === void 0) { query = {}; }
-            var xhr = new XMLHttpRequest();
-            var subject = new ReplaySubject_1.ReplaySubject(1);
-            _this.decorateXHR(xhr, subject);
+            var _a = _this.init(), xhr = _a.xhr, subject = _a.subject;
             _this.sendXHR(xhr, 'POST', url, query, body, headers);
             return subject;
         };
         this.delete = function (url, query, headers) {
             if (query === void 0) { query = {}; }
             if (headers === void 0) { headers = {}; }
-            var xhr = new XMLHttpRequest();
-            var subject = new ReplaySubject_1.ReplaySubject(1);
-            _this.decorateXHR(xhr, subject);
+            var _a = _this.init(), xhr = _a.xhr, subject = _a.subject;
             _this.sendXHR(xhr, 'DELETE', url, query, {}, headers);
             return subject;
         };
@@ -990,15 +984,23 @@ var Http = /** @class */ (function () {
             if (body === void 0) { body = {}; }
             if (headers === void 0) { headers = {}; }
             if (query === void 0) { query = {}; }
+            var _a = _this.init(), xhr = _a.xhr, subject = _a.subject;
+            _this.sendXHR(xhr, 'PUT', url, query, body, headers);
+            return subject;
+        };
+        // 代码提取
+        this.init = function () {
             var xhr = new XMLHttpRequest();
             var subject = new ReplaySubject_1.ReplaySubject(1);
             _this.decorateXHR(xhr, subject);
-            _this.sendXHR(xhr, 'PUT', url, query, body, headers);
-            return subject;
+            return { xhr: xhr, subject: subject };
         };
     }
     //  发送xhr
     Http.prototype.sendXHR = function (xhr, type, url, query, body, headers) {
+        if (query === void 0) { query = {}; }
+        if (body === void 0) { body = {}; }
+        if (headers === void 0) { headers = {}; }
         url += "?" + this.toQueryString(query);
         switch (type) {
             case "DELETE": {

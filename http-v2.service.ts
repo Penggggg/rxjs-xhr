@@ -12,10 +12,7 @@ class Http {
 
   public get: GET = ( url: string, query: Object = { }, headers: Object = { }) => {
     
-    const xhr = new XMLHttpRequest( );
-    const subject = new ReplaySubject( 1 );
-
-    this.decorateXHR( xhr, subject );
+    const { xhr, subject } = this.init( );
     this.sendXHR( xhr, 'GET', url, query, { }, headers );
 
     return subject;
@@ -24,10 +21,7 @@ class Http {
 
   public post: POST = ( url: string, body: Object = { }, headers: Object = { }, query: Object = { }) => {
 
-    const xhr = new XMLHttpRequest( );
-    const subject = new ReplaySubject( 1 );
-
-    this.decorateXHR( xhr, subject );
+    const { xhr, subject } = this.init( );
     this.sendXHR( xhr, 'POST', url, query, body, headers );
 
     return subject;
@@ -35,10 +29,7 @@ class Http {
 
   public delete: DELETE = ( url: string, query: Object = { }, headers: Object = { }) => {
     
-    const xhr = new XMLHttpRequest( );
-    const subject = new ReplaySubject( 1 );
-
-    this.decorateXHR( xhr, subject );
+    const { xhr, subject } = this.init( );
     this.sendXHR( xhr, 'DELETE', url, query, { }, headers );
 
     return subject;
@@ -47,13 +38,21 @@ class Http {
 
   public put: PUT = ( url: string, body: Object = { }, headers: Object = { }, query: Object = { }) => {
 
+    const { xhr, subject } = this.init( );
+    this.sendXHR( xhr, 'PUT', url, query, body, headers );
+
+    return subject;
+  }
+  
+  // 代码提取
+  private init = ( ): { xhr: XMLHttpRequest, subject: ReplaySubject< any > } => {
+
     const xhr = new XMLHttpRequest( );
     const subject = new ReplaySubject( 1 );
 
     this.decorateXHR( xhr, subject );
-    this.sendXHR( xhr, 'PUT', url, query, body, headers );
+    return { xhr, subject }
 
-    return subject;
   }
 
   //  发送xhr
@@ -61,9 +60,9 @@ class Http {
     xhr: XMLHttpRequest, 
     type: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'HEAD' | 'OPTIONS',
     url: string,
-    query?: Object,
-    body?: Object,
-    headers?: Object ): void {
+    query: Object = { },
+    body: Object = { },
+    headers: Object = { }): void {
 
       url += `?${this.toQueryString(query)}`;
 
