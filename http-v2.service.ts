@@ -1,4 +1,5 @@
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+
+import { ReplaySubject } from 'rxjs/ReplaySubject';
 
 
 class Http {
@@ -12,7 +13,7 @@ class Http {
   public get: GET = ( url: string, query: Object = { }, headers: Object = { }) => {
     
     const xhr = new XMLHttpRequest( );
-    const subject = new BehaviorSubject( null );
+    const subject = new ReplaySubject( 1 );
 
     this.decorateXHR( xhr, subject );
     this.sendXHR( xhr, 'GET', url, query, { }, headers );
@@ -24,7 +25,7 @@ class Http {
   public post: POST = ( url: string, body: Object = { }, headers: Object = { }, query: Object = { }) => {
 
     const xhr = new XMLHttpRequest( );
-    const subject = new BehaviorSubject( null );
+    const subject = new ReplaySubject( 1 );
 
     this.decorateXHR( xhr, subject );
     this.sendXHR( xhr, 'POST', url, query, body, headers );
@@ -35,7 +36,7 @@ class Http {
   public delete: DELETE = ( url: string, query: Object = { }, headers: Object = { }) => {
     
     const xhr = new XMLHttpRequest( );
-    const subject = new BehaviorSubject( null );
+    const subject = new ReplaySubject( 1 );
 
     this.decorateXHR( xhr, subject );
     this.sendXHR( xhr, 'DELETE', url, query, { }, headers );
@@ -47,7 +48,7 @@ class Http {
   public put: PUT = ( url: string, body: Object = { }, headers: Object = { }, query: Object = { }) => {
 
     const xhr = new XMLHttpRequest( );
-    const subject = new BehaviorSubject( null );
+    const subject = new ReplaySubject( 1 );
 
     this.decorateXHR( xhr, subject );
     this.sendXHR( xhr, 'PUT', url, query, body, headers );
@@ -114,7 +115,7 @@ class Http {
   }
 
   // 监听xhr异步事件
-  private decorateXHR( xhr: XMLHttpRequest, subject: BehaviorSubject<any> ): void {
+  private decorateXHR( xhr: XMLHttpRequest, subject: ReplaySubject<any> ): void {
 
     // error 错误事件
     xhr.onerror = err => this.errorCloseConnection( xhr, subject, JSON.stringify( err ));
@@ -150,14 +151,14 @@ class Http {
   }
 
   // 发生错误 - xhr关闭连接
-  private errorCloseConnection( xhr: XMLHttpRequest, subject: BehaviorSubject<any>, err: string ): void {
+  private errorCloseConnection( xhr: XMLHttpRequest, subject: ReplaySubject<any>, err: string ): void {
     xhr.abort( );
     subject.error( err )
     subject.complete( );
   }
 
   // 请求成功 - xhr关闭连接
-  private successCloseConnection( xhr: XMLHttpRequest, subject: BehaviorSubject<any>, err: string ): void {
+  private successCloseConnection( xhr: XMLHttpRequest, subject: ReplaySubject<any>, err: string ): void {
     xhr.abort( );
     subject.complete( );
   }
@@ -166,29 +167,29 @@ class Http {
 }
 
 interface GET {
-    < R >( url: string ): BehaviorSubject<R>
-    < R, Q >( url: string, query: Q ): BehaviorSubject<R>
-    < R, Q, H >( url: string, query: Q, header: H ): BehaviorSubject<R>
+    < R >( url: string ): ReplaySubject<R>
+    < R, Q >( url: string, query: Q ): ReplaySubject<R>
+    < R, Q, H >( url: string, query: Q, header: H ): ReplaySubject<R>
 }
 
 interface POST {
-    < R >( url: string ): BehaviorSubject< R >
-    < R, B >( url: string, body: B ): BehaviorSubject< R >
-    < R, B, H >( url: string, body: B, header: H ): BehaviorSubject< R >
-    < R, B, H, Q >( url: string, body: B, header: H, query: Q ): BehaviorSubject< R >
+    < R >( url: string ): ReplaySubject< R >
+    < R, B >( url: string, body: B ): ReplaySubject< R >
+    < R, B, H >( url: string, body: B, header: H ): ReplaySubject< R >
+    < R, B, H, Q >( url: string, body: B, header: H, query: Q ): ReplaySubject< R >
 }
 
 interface PUT {
-    < R >( url: string ): BehaviorSubject< R >
-    < R, B >( url: string, body: B ): BehaviorSubject< R >
-    < R, B, H >( url: string, body: B, header: H ): BehaviorSubject< R >
-    < R, B, H, Q >( url: string, body: B, header: H, query: Q ): BehaviorSubject< R >
+    < R >( url: string ): ReplaySubject< R >
+    < R, B >( url: string, body: B ): ReplaySubject< R >
+    < R, B, H >( url: string, body: B, header: H ): ReplaySubject< R >
+    < R, B, H, Q >( url: string, body: B, header: H, query: Q ): ReplaySubject< R >
 }
 
 interface DELETE {
-    < R >( url: string ): BehaviorSubject<R>
-    < R, Q >( url: string, query: Q ): BehaviorSubject<R>
-    < R, Q, H >( url: string, query: Q, header: H ): BehaviorSubject<R>
+    < R >( url: string ): ReplaySubject<R>
+    < R, Q >( url: string, query: Q ): ReplaySubject<R>
+    < R, Q, H >( url: string, query: Q, header: H ): ReplaySubject<R>
 }
 
 export default new Http( );
