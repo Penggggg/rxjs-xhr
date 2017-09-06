@@ -63,6 +63,9 @@ class Http {
     headers: object = { }): void {
 
       url += `?${this.toQueryString(query)}`;
+      if ( process.env.NODE_ENV === 'development' ) {
+        console.log(`http ${type}: ${url}`);
+      }
 
       switch ( type ) {
         case 'DELETE': {
@@ -131,7 +134,7 @@ class Http {
         // 成功
         if ( String(status).indexOf('2') === 0 || String(status).indexOf('3') ) {
           try {
-            subject.next( responseText );
+            subject.next( JSON.parse( responseText ));
             subject.complete( );
           } catch ( e ) {
             this.errorCloseConnection( xhr, subject, JSON.stringify( e ));
