@@ -1,7 +1,6 @@
-import { injectable } from 'inversify';
+
 import { ReplaySubject } from 'rxjs/ReplaySubject';
 
-@injectable( )
 export default class Http {
 
   private options = {
