@@ -1,6 +1,8 @@
+import { injectable } from 'inversify';
 import { ReplaySubject } from 'rxjs/ReplaySubject';
 
-class Http {
+@injectable( )
+export default class Http {
 
   private options = {
     TIMEOUT: 10000
@@ -17,7 +19,7 @@ class Http {
 
   }
 
-  public post: POST = ( url: string, body: object = { }, headers: object = { }, query: object = { }) => {
+  public post: POST = (url: string, body: object = { }, headers: object = { }, query: object = { }) => {
 
     const { xhr, subject } = this.init( );
     this.sendXHR( xhr, 'POST', url, query, body, headers );
@@ -66,6 +68,10 @@ class Http {
       if ( process.env.NODE_ENV === 'development' ) {
         console.log(`http ${type}: ${url}`);
       }
+
+      headers = Object.assign({ }, headers, {
+        'Content-Type': 'application/json'
+      });
 
       switch ( type ) {
         case 'DELETE': {
@@ -128,14 +134,13 @@ class Http {
     xhr.onreadystatechange = ( ) => {
 
       const { readyState, status, statusText, responseText } = xhr;
-
       if ( readyState === 4 ) {
 
         // 成功
-        if ( String(status).indexOf('2') === 0 || String(status).indexOf('3') ) {
+        if ( String(status).indexOf('2') === 0 || String(status).indexOf('3') === 0 ) {
           try {
             subject.next( JSON.parse( responseText ));
-            subject.complete( );
+            this.successCloseConnection( xhr, subject );
           } catch ( e ) {
             this.errorCloseConnection( xhr, subject, JSON.stringify( e ));
           }
@@ -149,14 +154,16 @@ class Http {
   }
 
   // 发生错误 - xhr关闭连接
-  private errorCloseConnection( xhr: XMLHttpRequest, subject: ReplaySubject<any>, err: string ): void {
+  private errorCloseConnection( xhr: XMLHttpRequest, subject: ReplaySubject<any>, err: any ): void {
+    err = JSON.parse( err );
     xhr.abort( );
     subject.error( err );
     subject.complete( );
+
   }
 
   // 请求成功 - xhr关闭连接
-  private successCloseConnection( xhr: XMLHttpRequest, subject: ReplaySubject<any>, err: string ): void {
+  private successCloseConnection( xhr: XMLHttpRequest, subject: ReplaySubject<any>): void {
     xhr.abort( );
     subject.complete( );
   }
@@ -188,5 +195,3 @@ interface DELETE {
     < R, Q >( url: string, query: Q ): ReplaySubject<R>
     < R, Q, H >( url: string, query: Q, header: H ): ReplaySubject<R>
 }
-
-export default new Http( );
